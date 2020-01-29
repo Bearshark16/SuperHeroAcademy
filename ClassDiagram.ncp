@@ -1,0 +1,34 @@
+<Project>
+  <Name>Untitled</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Untitled</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Hero</Name>
+        <Access>Public</Access>
+        <Location left="197" top="45" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected string name</Member>
+        <Member type="Field">protected HeroType heroType</Member>
+        <Member type="Field">protected int strength</Member>
+        <Member type="Field">protected int agility</Member>
+        <Member type="Method">public string GetName()</Member>
+        <Member type="Method">public HeroType GetHeroType()</Member>
+        <Member type="Method">public int GetStrength()</Member>
+        <Member type="Method">public int GetAgility()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CombatHero</Name>
+        <Access>Public</Access>
+        <Location left="201" top="299" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
